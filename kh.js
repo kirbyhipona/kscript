@@ -1,3 +1,2 @@
-var txt = document.createTextNode(" This text was added to the DIV.");
-var parent = document.getElementById('div');
-parent.insertBefore(txt, parent.lastChild);
+  node = document.getElementById('disclaimer');
+ node.insertAdjacentHTML('afterend', '<div class="disclaimer"><b>Programmed by: KH</b></div>');
