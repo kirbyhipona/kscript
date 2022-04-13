@@ -1,1 +1,1 @@
- document.body.innerHTML = '<div class="disclaimer"><b>Programmed by: KH</b>';
+ document.body.innerHTML += '<div class="disclaimer"><b>Programmed by: KH</b></div>';
